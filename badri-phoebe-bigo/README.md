@@ -28,4 +28,7 @@
     O(log(n)) when the input significantly increases, the output does not. It does not check every element to succeed.
 
 9. Random element
-    
+    O(1) - even though an array is inputted, it's runtime complexity is constant because it's independent of the input (no looping is happening).
+
+10. What Am I? 
+    This function calculates if the input is a prime number (returns true if it is). The Big O is O(n) (sublinear); the time is dependent on the input but not in a strictly linear way (if it's a whole number greater than 1, it is constant, but if it's a prime number it's calculated n times). 

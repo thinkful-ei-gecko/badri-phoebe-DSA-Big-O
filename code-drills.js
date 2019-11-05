@@ -42,3 +42,61 @@ function reverseString(str) {
 }
 reverseString('hello');
 
+function nthTriNum(n) {
+  let triNum = 0
+  for (let i= 0; i <= n; i++) {
+    triNum += i
+  }
+  console.log(triNum)
+}
+
+nthTriNum(5)
+
+function strSplit (str, sep) {
+  let result = []
+  let prevIndex = -1
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === sep) {
+      result.push(str.slice(prevIndex+1, i))
+      prevIndex = i
+    }
+    if (i === str.length-1 && str[i] !== sep)  {
+      result.push(str.slice(prevIndex+1, i+1))
+    }
+  }
+  console.log(result)
+}
+
+strSplit('02/20/2020', '/')
+
+function fibonacci(n) {
+  let seq = [1, 1]
+  if (n===0) {
+    console.log(0);
+    return;
+  }
+  if(n===1){
+    console.log(1)
+    return;
+  }
+  if(n===2){
+    console.log(seq)
+    return;
+  }
+  for (let i = 2; i <= n; i++) {
+    seq.push(seq[i-1]+seq[i-2])
+  }
+  console.log(seq)
+}
+
+fibonacci(9)
+
+function factorial(n){
+  let result = 1
+  for(let i = n; i > 0; i--) {
+    result = result * i
+  }
+  console.log(result)
+}
+
+factorial(5)

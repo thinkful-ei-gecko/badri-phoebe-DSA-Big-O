@@ -32,3 +32,23 @@
 
 10. What Am I? 
     This function calculates if the input is a prime number (returns true if it is). The Big O is O(n) (sublinear); the time is dependent on the input but not in a strictly linear way (if it's a whole number greater than 1, it is constant, but if it's a prime number it's calculated n times). 
+
+11. TOH
+    See code for details
+    * If you are given 5 disks, how do the rods look like after 7 recursive calls? *
+        Rod A: 1, 2, 3, 4
+        Rod B: none
+        Rod C: 5, 6, 7
+            A -> C
+            A -> B
+            C -> B
+            A -> C
+            B -> A
+            B -> C
+            A -> C
+    * How many moves are needed to complete the puzzle with 3 disks? with 4 disks? with 5 disks? *
+        3 disks: 7 moves
+        4 disks: 15 moves
+        5 disks: 31 moves
+    * What is the runtime of your algorithm? *
+        O(n^2) 

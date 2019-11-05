@@ -27,4 +27,5 @@
 8. An Efficent search
     O(log(n)) when the input significantly increases, the output does not. It does not check every element to succeed.
 
-9. 
+9. Random element
+    

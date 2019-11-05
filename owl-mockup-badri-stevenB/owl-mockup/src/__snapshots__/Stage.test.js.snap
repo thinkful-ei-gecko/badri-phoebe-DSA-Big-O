@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Stage component renders the UI as expcted 1`] = `
-<section
-  className="stageBox"
-/>
-`;

@@ -35,7 +35,7 @@
 
 11. TOH
     See code for details
-    * If you are given 5 disks, how do the rods look like after 7 recursive calls? *
+    *If you are given 5 disks, how do the rods look like after 7 recursive calls?*
         Rod A: 1, 2, 3, 4
         Rod B: none
         Rod C: 5, 6, 7
@@ -46,11 +46,30 @@
             B -> A
             B -> C
             A -> C
-    * How many moves are needed to complete the puzzle with 3 disks? with 4 disks? with 5 disks? *
+    *How many moves are needed to complete the puzzle with 3 disks? with 4 disks? with 5 disks?*
         3 disks: 7 moves
         4 disks: 15 moves
         5 disks: 31 moves
-    * What is the runtime of your algorithm? *
+    *What is the runtime of your algorithm?*
         O(n^2) 
 
-13. See code
+12. See code
+
+13. Recursive Big O
+    Using solution code from recursive functions: 
+    * Count Sheep: O(n)
+    * Power Calculator: O(n)
+    * Reverse String: O(n)
+    * Triangle: O(n)
+    * Split: O(n) (mostly linear)
+    * Factorial: O(n)
+    * Fibonacci: O(n)
+
+14. Iterative Big O
+    * Count Sheep: O(n)
+    * Power Calculator: O(n)
+    * Reverse String: O(n)
+    * Triangle: O(n)
+    * Split: O(n)
+    * Factorial: O(n)
+    * Fibonacci: O(n)

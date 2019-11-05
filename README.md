@@ -52,3 +52,5 @@
         5 disks: 31 moves
     * What is the runtime of your algorithm? *
         O(n^2) 
+
+13. See code
